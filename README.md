@@ -4,4 +4,5 @@ Main java class takes 3 arguments - MQTT broker URL (tcp://brokerhost:1883), MQT
 
 Cassandra needs to have a following 
 CREATE KEYSPACE ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+
 CREATE TABLE ks.cf (id INT PRIMARY KEY, name TEXT);
